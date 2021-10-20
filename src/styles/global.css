@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+canvas {
+  background: #DBD3AD;
+}
+
+h1 {
+  font-size: 4rem;
+    font-family: sans-serif;
+}
+
+footer {
+    color: lightgray;
+    background: #0D1F22;
+    padding: 2rem;
+}
+
+section.about, section.work {
+  padding: 4rem;
+}
+
+section.about {
+  background: #fff;
+}
+
+section.work {
+  color: #a1a1a1;
+  background: #4ECDC4;
+}
+
+@layer components {
+    .btn-red {
+      @apply py-2 px-4 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75;
+    }
+
+    .section {
+      @apply p-12 bg-gray-100 text-gray-500;
+    }
+  }
