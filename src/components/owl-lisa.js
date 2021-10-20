@@ -64,7 +64,7 @@ export default function Model(props) {
             geometry={nodes.typewriter.geometry}
             material={nodes.typewriter.material}
             position={[-40.87, -0.13, -0.01]} >
-            <meshStandardMaterial color="#E63946" />                
+            <meshStandardMaterial color="#20A39E" />               
           </mesh>
           <mesh
             name="desk"                
